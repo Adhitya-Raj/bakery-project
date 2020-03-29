@@ -54,9 +54,27 @@ body{
     border-radius: 75px;
     width: auto;
 }
-
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: black;
+}
+.navbar-default .navbar-toggle{
+  border-color: black;
+  border-radius: 10px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a{
+  color: black;
+}
 .navbar{
-    background-color: #b5ead7;
+    /* background-color: #b5ead7; */
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0));
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  background-color: #A2D2C0;
+  border-radius: 5px;
+  margin: 2px 0px;
 }
 
 .jumbotron{
