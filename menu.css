@@ -1,0 +1,20 @@
+.container{
+    background-color: #b5ead7;
+    width: auto;
+    height: auto;
+    font-family: 'Pacifico';
+    font-family: 'Caveat';
+
+}
+legend{  background-color: rgba(255, 154, 162, 0.75);
+    font-family: 'Pacifico';
+    font-family: 'Caveat';
+    }
+fieldset{background-color: #c7ceea;
+    font-family: 'Pacifico';
+    font-family: 'Caveat';
+    }
+body{ background-image: url("https://i.imgur.com/GVG0RPY.jpg");}
+button{height: 25px;}
+input{width: 60px;
+height: 20px;}

@@ -1,0 +1,28 @@
+#c2{
+  margin: 0.2rem;
+  padding: 0.2rem;
+  padding-bottom: 1rem;
+  background-color: #c7ceea;
+  border-radius: 75px;
+  width: auto;
+}
+#c1 {
+  background-color: #e2f0cb;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  padding-bottom: 1rem;
+  border-radius: 75px;
+  width: auto;
+}
+ #a1{
+  /* background-color: #ff9aa2; */
+  background-color: rgba(255, 154, 162, 0.75);
+  font-family: 'Pacifico';
+  height: 70px;
+}
+/* .container{
+  width: auto;
+  background-color: #b5ead7;
+  font-family: 'Caveat';
+  font-size: 2rem;
+} */

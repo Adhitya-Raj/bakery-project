@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        .note{width: 400px;
+        height: 100px;}
+    </style>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <!-- <link rel="stylesheet" type="text/css" href="cakes.css"> -->
+     <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <p id="brand" class="navbar-brand">
+              Bake-a-Holic
+            </p>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-nav-demo">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+              <li><a href="menu.html"><span class="glyphicon glyphicon-cutlery"></span> Menu</a></li>
+              <li><a href="gallery.html"><span class="glyphicon glyphicon-picture"></span> Gallery</a></li>
+              <li><a href="Ourbranches.html"><span class="glyphicon glyphicon-globe"></span> Outlets</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+      </div>
+  </nav>
+  <div class="container text-center">
+    <fieldset>
+
+        <form name="cake-info" action="#" method="post">
+          <input type="text" name="cname" value="Vanilla Cake" class="ma-hinput">
+          <input type="text" name="cost" value="550" class="ma-hinput">
+      <legend class="ma-container">
+        VANILLA
+      </legend>
+      <pre>
+      <center><img src="vanilla.jpg" alt="vanilla" width="500" height="300"></center>
+      <h3 id="m1">Rs.550</h3>
+      <br>
+      <h4 id="m2">PRODUCT VENDOR: Bake - a - Holic</h4>
+      <br>
+      <h4 id="m1">PRODUCT TYPE:REGULAR CAKES</h4>
+      <br>
+      <h4 id="m2">WEIGHT(in kgs)<input type="number" name="weight"></input></h4>
+      <br>
+      <h4 id="m1">AVAILABILITY:MANY IN STOCK</h4>
+      <br>
+      <h4 id="m2">VARIANTS :<select name="var">
+          <option value='egg'>EGG</option>
+          <option value="eggless">EGGLESS</option>
+      </select></h4>
+      <br>
+      <h4 id="m1">DELIVERY MODE:<input type="radio" name="dm" value="pickup">PICKUP</input> <input type="radio" name="dm" value="delivery">DELIVERY</input></h4>
+      <br>
+      <p id="m2"> CAKE NOTE:
+      <br><textarea id='m1' name="note" placeholder="note to the chef" class="note"></textarea></p>
+      <button class="btn btn-primary btn-lg" type="submit">ADD TO CART <span class="glyphicon glyphicon-shopping-cart"></span></button>
+    </form>
+      </pre>
+    </fieldset>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
