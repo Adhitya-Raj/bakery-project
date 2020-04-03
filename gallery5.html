@@ -5,12 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="home.css">
-
-        <style>
-            fieldset{text-align: center;
-                width:800px;}
-        </style>
         <link rel="stylesheet" type="text/css" href="app.css">
     </head>
     <body>
@@ -45,7 +39,9 @@
             </div>
         </nav>
 
-        <center>
+      <div class="container text-center">
+        <h1 class="red-h1">GALLERY</h1>
+
         <nav aria-label="Page navigation">
           <ul class="pagination">
             <li>
@@ -57,8 +53,8 @@
             <li><a href="gallery2.html">2</a></li>
             <li><a href="gallery3.html">3</a></li>
             <li><a href="gallery4.html">4</a></li>
-            <li><a href="gallery5.html" class="active">5</a></li>
-            <li>
+            <li class="active"><a href="gallery5.html">5</a></li>
+            <li class="disabled">
               <a href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
               </a>
@@ -66,19 +62,15 @@
           </ul>
         </nav>
 
-        <h1 id="a1" style="background-color: rgba(255, 154, 162, 0.75);">GALLERY</h1>
         <h2 class="c2">VELACHERY</h2>
-        <pre>
-        <fieldset class="c1">
-        <img src="g9.jpg" alt="img1" width="500" height="300">
-        </fieldset>
-        <fieldset class="c2">
-        <img src="g10.jpg" alt="img2" width="500" height="300">
-    </fieldset>
-        <br>
-    </center>
+        <div class="c1">
+          <img class="thumbnail" src="g9.jpg" alt="img1" width="500" height="300">
+        </div>
+        <div class="c2">
+          <img class="thumbnail" src="g10.jpg" alt="img2" width="500" height="300">
+        </div>
+      </div>
 
-    </pre>
     <script src="app.js" charset="utf-8"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
