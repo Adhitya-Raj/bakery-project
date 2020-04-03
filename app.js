@@ -1,6 +1,6 @@
 window.onscroll = function(){
   var  nav = document.getElementById('nav');
-	if (window.pageYOffset >100) {
+	if (window.pageYOffset >10) {
     nav.style.backgroundColor="#b5ead7";
     nav.style.backgroundImage="none";
 	}

@@ -45,9 +45,10 @@
         </nav>
       <div class="container text-center">
         <fieldset>
-          <form name="cake-info" action="#" method="post">
-            <input type="text" name="cname" value="Anniversary Cake" class="ma-hinput">
-            <input type="text" name="cost" value="2400" class="ma-hinput">
+          <form name="cake-info" action="placeorder.php" method="post">
+            <input type="text" name="cname" value="Anniversary Cake" class="ma-hinput" readonly>
+            <input type="text" name="cost" value="2400" class="ma-hinput" readonly>
+            <input type="number" name="variety" value="0" class="ma-hinput" readonly>
             <legend class="ma-container">ANNIVERSARY CAKE</legend>
             <pre>
                 <center><img src="anv.webp" alt="anniversary cake"></center>

@@ -11,17 +11,34 @@ body{
     font-family: 'Pacifico';
     font-family: 'Caveat';
     padding-bottom: 20px;
+    font-size: 16px;
     height: 90%;
     width: 100%;
 }
 /* Adhitya Raj Classess*/
 .c1 {
-    background-color: #e2f0cb;
-    margin: 0.2rem;
+    background: rgb(226,240,203);
+    background: linear-gradient(25deg, rgba(226,240,203,1) 0%,rgba(241,248,231,1) 80%, rgba(255,255,255,0.75) 100%);
+    margin: 10px;
     padding: 0.2rem;
     padding-bottom: 1rem;
-    border-radius: 75px;
-    width: auto;
+    border-radius: 15px;
+}
+
+
+.c2 {
+    margin: 10px;
+    padding: 0.2rem;
+    padding-bottom: 1rem;
+    background: rgb(199,206,234);
+    background: linear-gradient(25deg, rgba(199,206,234,1) 0%, rgba(244,246,251,1) 80%, rgba(255,255,255,0.8) 100%);
+    border-radius: 15px;
+}
+
+.txt-area{
+  width: 90%;
+  height: auto;
+  resize:none;
 }
 
 .card {
@@ -46,14 +63,6 @@ body{
   object-fit: cover;
 }
 
-.c2 {
-    margin: 0.2rem;
-    padding: 0.2rem;
-    padding-bottom: 1rem;
-    background-color: #c7ceea;
-    border-radius: 75px;
-    width: auto;
-}
 .navbar-default .navbar-toggle .icon-bar{
   background-color: black;
 }
@@ -79,8 +88,28 @@ body{
 
 .jumbotron{
     /* background-color: #ff9aa2; */
-    background-color: rgba(255, 154, 162, 0.75);
+    /* background-color: rgba(255, 154, 162, 0.75); */
     font-family: 'Pacifico';
+    background: rgb(255,0,20);
+    background: linear-gradient(45deg, rgba(255,0,20,1) 0%, rgba(255,80,93,1) 50%, rgba(255,154,162,1) 100%);
+}
+
+table.form-table{
+  text-align: right;
+  margin: 20px auto;
+}
+
+input.cart, textarea.cart{
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 2px;
+  padding-left: 2px;
+}
+
+textarea.cart{
+  resize: none;
+  height: 26px;
+  width: 160px;
 }
 
 #brand{
@@ -115,11 +144,16 @@ a.a-link:hover{
 /*Adhitya Raj Classess ends*/
 /* M Adhitya Classess */
 /* Cakes.css*/
-fieldset .ma-container{
+.ma-container{
     background-color: #b5ead7;
     font-family: 'Caveat';
     /* font-size: 5rem; */
     text-align: center;
+}
+
+.thumbnail{
+  margin: 5px auto;
+  max-height: 400px;
 }
 
 #m1{

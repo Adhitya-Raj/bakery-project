@@ -44,10 +44,10 @@
         </nav>
   <div class="container text-center">
     <fieldset>
-
-        <form name="cake-info" action="#" method="post">
-          <input type="text" name="cname" value="Vanilla Cake" class="ma-hinput">
-          <input type="text" name="cost" value="550" class="ma-hinput">
+        <form action="placeorder.php" method="post">
+          <input type="text" name="cname" value="Vanilla Cake" class="ma-hinput" readonly>
+          <input type="text" name="cost" value="550" class="ma-hinput" readonly>
+          <input type="number" name="variety" value="1" class="ma-hinput" readonly>
       <legend class="ma-container">
         VANILLA
       </legend>
@@ -64,7 +64,7 @@
       <h4 id="m1">AVAILABILITY:MANY IN STOCK</h4>
       <br>
       <h4 id="m2">VARIANTS :<select name="var">
-          <option value='egg'>EGG</option>
+          <option value="egg">EGG</option>
           <option value="eggless">EGGLESS</option>
       </select></h4>
       <br>
